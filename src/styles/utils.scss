@@ -1,0 +1,111 @@
+@import '~open-color/open-color';
+@import '~include-media/dist/include-media';
+.agreechecked{
+  background: red;
+}
+.onButton{
+  color:#fff;
+  background: $oc-yellow-6 !important;
+}
+.flexcenter{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.flexCenter2{
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.flexstartCenter{
+  justify-content: flex-start;
+}
+.flexendCenter{
+  justify-content: flex-end;
+}
+.borderbottom{
+  border-bottom:1px solid $oc-gray-4;
+}
+.subjectSmall{
+  // width: 95%;
+  font-size: 13px;
+  font-weight: 700;
+}
+.twoButton{
+  color:#81807c;
+  border:1px solid $oc-gray-4;
+  font-size: 13px;
+  // font-weight: 700;
+  &>div{
+    width:50%;
+    height: 100%;
+    background: #fff;
+  }
+}
+.threeButton{
+  color:#81807c;
+  border:1px solid $oc-gray-4;
+  font-size: 13px;
+  height:40px;
+  // font-weight: 700;
+  &>div{
+    width:33.33%;
+    height: 100%;
+    background: #fff;
+  }
+}
+.fiveButton{
+  color:#81807c;
+  border:1px solid $oc-gray-4;
+  font-size: 13px;
+  // font-weight: 700;
+  &>div{
+    width:20%;
+    height: 100%;
+    background: #fff;
+  }
+}
+.cursor{
+  cursor: pointer;
+}
+.wid5{
+  width: 5%;
+}
+.wid10{
+  width: 10%;
+}
+.wid15{
+  width: 15%;
+}
+.wid20{
+  width: 20%;
+}
+.wid60{
+  width: 60%;
+}
+.wid70{
+  width: 70%;
+}
+.wid75{
+  width: 75%;
+}
+.wid85{
+  width: 85%;
+}
+.wid90{
+  width: 90%;
+}
+.wid95{
+  width: 95%;
+}
+input::placeholder {
+  color: #c7c7c7;
+  font-style: italic;
+}
+.borderRightgray{
+  border-right: 0.5px solid $oc-gray-2;
+}
+.borderLeftgray{
+  border-left: 0.5px solid $oc-gray-2;
+}

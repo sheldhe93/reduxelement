@@ -1,0 +1,25 @@
+@import 'utils';
+.footerNext{
+  height: 80px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 90%;
+  & > .button{
+    width: 48%;
+    height: 100%;
+    margin: 0 2% 0 2%;
+    border: 1px solid $oc-gray-4;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+.flexCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

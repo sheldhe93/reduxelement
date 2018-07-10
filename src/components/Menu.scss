@@ -1,0 +1,46 @@
+@import 'utils';
+
+header {
+  background: $oc-yellow-6;
+  height: 6rem;
+  color: white;
+  padding: 1rem;
+
+  display: flex;
+  align-items: center;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  // 태블릿 사이즈에서  폰트 크기 줄이기
+  @include media("<tablet") {
+    font-size: 1.25rem;
+  }
+  & >div{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    & >div{
+
+      height:100%;
+      display: flex;
+      align-items: center;
+    }
+    & >.viewer-subject{
+       width:75%;
+    }
+    & >.viewer-progress{
+      width:25%;
+      justify-content: center;
+      & >div{
+        width: 100%;
+        height:100%;
+        &>div{
+          margin:0 2px 0 2px;
+        }
+      }
+   }
+  }
+
+}

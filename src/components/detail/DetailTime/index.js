@@ -1,0 +1,1 @@
+export { default as DetailTime } from './DetailTime';

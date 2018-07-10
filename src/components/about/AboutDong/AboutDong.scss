@@ -1,0 +1,41 @@
+@import 'utils';
+
+.detailoff{
+  display: none;
+}
+.detailon{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &> .detailIntro{
+    font-size:12.5px;
+    height: 60px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+  }
+  &>.detailEx{
+    margin: 5px 0 5px 0;
+    padding: 10px 7px 10px 7px;
+    background: #e1e1e1;
+    border:1px solid $oc-gray-4;
+  }
+  &>.detailMemo{
+    margin-bottom: 20px;
+
+    &> textarea{
+      width: 100%;
+      border: 1px solid #d2d7dc;
+      height: 110px;
+      padding: 10px;
+      font-size: 14px;
+      resize: none;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import 'utils';
+
+.agreeControlMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  height: 45px;
+  & > .button{
+    width: 48%;
+    height: 100%;
+    margin: 0 2% 0 2%;
+    border: 1px solid $oc-gray-4;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+.onButton{
+  color:#fff;
+  background: $oc-yellow-6 !important;
+}

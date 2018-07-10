@@ -1,0 +1,14 @@
+@import 'utils';
+.detailDongCheck{
+  height: 70px;
+  &>div{
+    width: 48%;
+    margin: 0px 1% 0px 1%;
+  }
+}
+.inputcss{
+  height:100%;
+  width: 100%;
+  font-style: normal;
+  font-size:15px;
+}

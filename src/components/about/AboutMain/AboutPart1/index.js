@@ -1,0 +1,1 @@
+export { default as AboutPart1 } from './AboutPart1';

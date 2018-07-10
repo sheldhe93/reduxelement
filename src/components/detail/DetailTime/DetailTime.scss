@@ -1,0 +1,18 @@
+@import 'utils';
+.ageTemplate{
+  height: 170px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 1px solid $oc-gray-5;
+  &> .divOne{
+    height:40px;
+    width:95%;
+  }
+  &> .divTwo{
+    height:80px;
+    width:95%;
+  }
+}

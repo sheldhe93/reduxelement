@@ -1,0 +1,11 @@
+@import 'utils';
+.detailStar{
+  height:80px;
+  background: #fff;
+   &> div{
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+}
